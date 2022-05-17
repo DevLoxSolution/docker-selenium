@@ -316,7 +316,7 @@ firefoxNode:
   # Selenium port (spec.ports[0].targetPort in kubernetes service)
   seleniumPort: 5900
   # Selenium port exposed in service (spec.ports[0].port in kubernetes service)
-  seleniumServicePort: 6900
+  seleniumServicePort: 6901
   # Annotations for firefox-node pods
   annotations: {}
   # Labels for firefox-node pods
@@ -376,7 +376,7 @@ edgeNode:
   # Selenium port (spec.ports[0].targetPort in kubernetes service)
   seleniumPort: 5900
   # Selenium port exposed in service (spec.ports[0].port in kubernetes service)
-  seleniumServicePort: 6900
+  seleniumServicePort: 6902
   # Annotations for edge-node pods
   annotations: {}
   # Labels for edge-node pods
